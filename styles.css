@@ -1,0 +1,143 @@
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: "Red Hat Display", sans-serif;
+}
+body {
+  background: repeat-x url("./images/pattern-background-desktop.svg");
+  background-color: hsl(225, 100%, 94%);
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  letter-spacing: 0.05rem;
+  line-height: 2rem;
+}
+
+strong {
+  font-weight: 700;
+  color: black;
+}
+
+a {
+  color: rgb(55, 40, 214);
+}
+
+a:hover {
+  color: rgba(55, 40, 214, 0.8);
+}
+
+button:hover,
+a:hover {
+  cursor: pointer;
+}
+a:hover {
+  text-decoration: none;
+}
+
+.attribution {
+  padding-bottom: 2rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.right {
+  margin-left: auto;
+}
+
+.card {
+  margin: auto;
+  max-width: 375px;
+  height: auto;
+  border-radius: 2rem;
+  overflow: hidden;
+  background-color: white;
+  text-align: center;
+  box-shadow: 0px 0px 1.5rem -2rem;
+}
+
+.card-content {
+  padding: 0 3rem;
+}
+
+.card-content > div {
+  margin: 1.5rem 0;
+}
+
+.card-hero {
+  width: 100%;
+}
+
+.card h1 {
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin-top: 3rem;
+}
+
+.card .description {
+  margin: 1.5rem 0;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 2rem;
+  color: slategray;
+}
+
+.card .plans {
+  padding: 1.5rem 2rem;
+  background-color: hsl(225, 100%, 98%);
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  border-radius: 15px;
+  font-size: 1.3rem;
+  color: slategray;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.card .buttons button {
+  display: block;
+  width: 100%;
+  border-radius: 1rem;
+  margin: 1.5rem 0;
+  padding: 1.5rem;
+  font-weight: 700;
+  border: none;
+}
+
+.btn--bg-dark {
+  background-color: rgb(55, 40, 214);
+  color: white;
+  box-shadow: 0 0.8rem 1rem 0px hsl(240deg 88% 90%);
+}
+
+.btn--bg-dark:hover {
+  background-color: rgba(55, 40, 214, 0.8);
+}
+
+.btn--bg-light {
+  background: white;
+  color: gray;
+}
+
+.btn--bg-light:hover {
+  color: black;
+}
